@@ -1,0 +1,284 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --color-up: #4bb1ab;
+  --color-down: #ca9d46;
+  --color-dark-3: #333333;
+}
+
+body {
+  font-weight: lighter;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.bg-up {
+  background: var(--color-up);
+}
+
+.bg-down {
+  background: var(--color-down);
+}
+
+.square-33 {
+  height: 33px;
+}
+
+.square-33 {
+  height: 33px;
+  width: 33px;
+}
+
+.btn-up,
+.btn-up:hover {
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: var(--color-up);
+}
+
+.btn-down,
+.btn-down:hover {
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: var(--color-down);
+}
+
+.btn-selected,
+.btn-selected:hover {
+  border: 1px solid #fff;
+}
+
+.border-dark-3 {
+  border: 2px solid var(--color-dark-3);
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-lighter {
+  font-weight: lighter;
+}
+
+.arrow-right {
+  display: inline-block;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid rgba(0, 0, 0, 0.7);
+  height: 0;
+  position: relative;
+  top: 3px;
+  width: 0;
+}
+
+.border-radius-0 {
+  border-radius: 0;
+}
+
+/* CAROUSEL */
+.carousel {
+  /*margin-bottom: 4rem;*/
+}
+
+button.carousel-control-next,
+button.carousel-control-prev {
+  max-height: 700px;
+}
+
+.carousel-caption {
+  background: var(--black);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35056029247636555) 100%);
+  max-height: 470px;
+  max-width: 550px;
+  top: 9rem;
+  z-index: 10;
+}
+
+.carousel-caption .description {
+  font-size: 20px;
+}
+
+.carousel-caption-background {
+  background-size: 1440px;
+  background-position: -185px -144px;
+  background-repeat: no-repeat;
+  bottom: 1.25rem;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  left: 15%;
+  max-height: 470px;
+  max-width: 550px;
+  padding: 1em;
+  position: absolute;
+  right: 15%;
+  top: 9rem;
+  z-index: 10;
+}
+
+.carousel-caption-actions {
+  height: 100vh;
+  width: 100%;
+}
+
+.carousel-caption-actions > div {
+  width: 100%;
+}
+
+.carousel-caption-actions button {
+  height: 80px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  min-height: 700px;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 700px;
+}
+
+.carousel-item div.timeline {
+  bottom: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  width: 100%;
+}
+
+.carousel-item div.timeline div:first-child {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: right;
+  width: 30%;
+}
+
+.carousel-item div.timeline div:last-child {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* CONTENT */
+main.content {
+}
+
+div.alert {
+}
+
+div.alert .highlight {
+  width: 24%;
+}
+
+div.alert .highlight strong {
+  display: block;
+  font-size: 30px;
+}
+
+div.alert button.btn-close {
+  height: 6vh;
+}
+
+/* LISTINGS */
+.list-characters.grid {
+}
+
+.list-characters.grid .wrapper {
+}
+
+.list-item {
+  background: rgb(224, 217, 209);
+  background: linear-gradient(90deg, rgba(224, 217, 209, 1) 0%, rgba(244, 235, 226, 1) 5%, rgba(224, 217, 209, 1) 10%, rgba(103, 103, 103, 1) 50%, rgba(133, 133, 133, 1) 100%);
+}
+
+.list-characters.grid .wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 320px;
+}
+
+.list-characters.grid .list-item {
+  height: 300px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.list-item {
+  height: 170px;
+}
+
+.list-item img {
+  height: 100%;
+}
+
+.list-item img {
+  max-height: 170px;
+}
+
+.list-item .content {
+  height: 100%;
+  position: relative;
+}
+
+.list-characters.grid .content {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+  max-height: 300px;
+  top: -300px;
+}
+
+.list-item .content {
+  background: rgb(158, 155, 151);
+  background: linear-gradient(90deg, rgba(158, 155, 151, 0) 15%, rgba(133, 131, 129, 1) 22%, rgba(105, 105, 105, 1) 75%, rgba(143, 141, 139, 1) 100%);
+  max-height: 170px;
+  top: -170px;
+}
+
+.ml-8em {
+  margin-left: 8em;
+}
+
+.list-characters.grid .content button {
+}
+
+.list-characters.grid .bar-info,
+.list-item .bar-info {
+  position: relative;
+}
+
+.list-characters.grid .bar-info {
+  font-size: 12px;
+  top: -340px;
+}
+
+.list-item .bar-info {
+  top: -212px;
+}
+
+.list-characters.grid svg {
+  max-width: 18px;
+}
+
+.list-item .bar-info .up,
+.list-characters.grid .bar-info .up {
+  background: rgb(75, 177, 171);
+  background: linear-gradient(90deg, rgba(75, 177, 171, 0.5) 0%, rgba(75, 177, 171, 1) 100%);
+}
+
+.list-item .content > div:first-child,
+.list-item .content > div:last-child {
+}
+
+.width-40 {
+  width: 39em;
+}
+
+/* FOOTER */
+footer > div {
+  border-top: 2px dashed var(--color-dark-3);
+}

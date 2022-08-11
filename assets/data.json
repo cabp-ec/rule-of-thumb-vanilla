@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "name": "Bill Clinton",
+      "description": "Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.",
+      "category": "entertainment",
+      "picture": "clinton.png",
+      "lastUpdated": "2020-03-10T23:08:57.892Z",
+      "votes": {
+        "positive": 23,
+        "negative": 36
+      }
+    },
+    {
+      "name": "Donald Trump",
+      "description": "Born and raised in New York, Trump received a Bachelor's degree in economics from the Wharton School of the University of Pennsylvania in 1968.",
+      "category": "business",
+      "picture": "trump.png",
+      "lastUpdated": "2021-02-14T23:10:19.134Z",
+      "votes": {
+        "positive": 418,
+        "negative": 324
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+nav.navbar {
+  background: var(--black);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35056029247636555) 100%);
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+nav.navbar .navbar-brand {
+  font-size: 32px;
+}
+
+nav a:hover,
+.nav a:hover {
+  text-decoration: underline;
+}
